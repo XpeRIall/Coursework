@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mPackaging /root/Загрузки/ScalaJs_Weather_Report-master/server/target/scala-2.11/server_2.11-0.1-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/conf/application.conf[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/conf/routes[0m
+[0m[[0mdebug[0m] [0m	controllers/WeatherController.scala[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/app/controllers/WeatherController.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

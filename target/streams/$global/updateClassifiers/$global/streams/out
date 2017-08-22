@@ -1,0 +1,243 @@
+[debug] :: resolving dependencies :: knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@da4b4a8
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5
+[debug] 	found org.scala-lang#scala-library;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-library;2.10.5
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [runtime]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [test]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [runtime]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [compile-internal]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [optional]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [provided]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile-internal->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile-internal->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile-internal->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [runtime-internal]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [runtime]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->master]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [optional]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime-internal->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime-internal->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime-internal->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [test-internal]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [test]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [runtime]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [compile->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [runtime->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test->master]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [optional]
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [provided]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test-internal->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test-internal->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test-internal->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [plugin]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [plugin->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [plugin->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [plugin->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [plugin->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.brianmckenna#wartremover_2.10;0.14 [plugin->default(compile)]
+[info] Resolving org.brianmckenna#wartremover_2.10;0.14 ...
+[debug] sbt-chain: Checking cache for: dependency: org.brianmckenna#wartremover_2.10;0.14 {plugin=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.brianmckenna#wartremover_2.10;0.14
+[debug] 	found org.brianmckenna#wartremover_2.10;0.14 in sbt-chain
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.brianmckenna#wartremover_2.10;0.14 [plugin->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.brianmckenna#wartremover_2.10;0.14 [plugin->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.brianmckenna#wartremover_2.10;0.14 [plugin->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.5 [plugin->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.10.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@195b927b
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.5
+[debug] 	found org.scala-lang#scala-compiler;2.10.5 in sbt-chain
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.5 [plugin->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.5 [plugin->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.5 [plugin->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.5 [plugin->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@104ccdab
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.5
+[debug] 	found org.scala-lang#scala-reflect;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-reflect;2.10.5
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.5 [plugin->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.5 [plugin->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.5 [plugin->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [plugin->default(compile)]
+[info] Resolving org.scalamacros#quasiquotes_2.10;2.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalamacros#quasiquotes_2.10;2.0.1 {plugin=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.1
+[debug] 	found org.scalamacros#quasiquotes_2.10;2.0.1 in sbt-chain
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [plugin->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [plugin->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [plugin->master]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 [scala-tool]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.5 [scala-tool->default(compile)]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#jline;2.10.5 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#jline;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.5
+[debug] 	found org.scala-lang#jline;2.10.5 in sbt-chain
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#jline;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#jline;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.scala-lang#jline;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.fusesource.jansi#jansi;1.4 [scala-tool->compile]
+[debug] == resolving dependencies knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
+[debug] 		tried /home/xperiall/.ivy2/local/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.5!scala-library.jar(src) (1037ms)
+[debug] 		tried /home/xperiall/.ivy2/local/org.brianmckenna/wartremover_2.10/0.14/srcs/wartremover_2.10-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/brianmckenna/wartremover_2.10/0.14/wartremover_2.10-0.14-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/brianmckenna/wartremover_2.10/0.14/wartremover_2.10-0.14-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/brianmckenna/wartremover_2.10/0.14/wartremover_2.10-0.14-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/brianmckenna/wartremover_2.10/0.14/wartremover_2.10-0.14-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/brianmckenna/wartremover_2.10/0.14/wartremover_2.10-0.14-sources.jar
+[info] 	[SUCCESSFUL ] org.brianmckenna#wartremover_2.10;0.14!wartremover_2.10.jar(src) (355ms)
+[debug] 		tried /home/xperiall/.ivy2/local/org.scala-lang/scala-compiler/2.10.5/srcs/scala-compiler-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar(src) (2401ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar
+[debug] 		tried /home/xperiall/.ivy2/local/org.scala-lang/scala-reflect/2.10.5/srcs/scala-reflect-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar(src) (1096ms)
+[debug] 		tried /home/xperiall/.ivy2/local/org.scalamacros/quasiquotes_2.10/2.0.1/srcs/quasiquotes_2.10-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(src) (1955ms)
+[debug] 		tried /home/xperiall/.ivy2/local/org.scala-lang/jline/2.10.5/srcs/jline-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#jline;2.10.5!jline.jar(src) (558ms)
+[debug] 		tried /home/xperiall/.ivy2/local/org.fusesource.jansi/jansi/1.4/srcs/jansi-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
+[info] 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.jar(src) (300ms)
+[debug] :: resolution report :: resolve 143ms :: artifacts dl 7713ms
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 compile produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-compile.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 runtime produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-runtime.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 test produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-test.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 provided produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-provided.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 optional produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-optional.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 compile-internal produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-compile-internal.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 runtime-internal produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-runtime-internal.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 test-internal produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-test-internal.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 plugin produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-plugin.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 sources produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-sources.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 docs produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-docs.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 pom produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-pom.xml
+[debug] 	report for knoldus-scala-js#knoldus-scala-js$sources_2.10;0.1 scala-tool produced in /home/xperiall/Downloads/курсач/target/resolution-cache/reports/knoldus-scala-js-knoldus-scala-js$sources_2.10-scala-tool.xml
+[debug] 	resolve done (143ms resolve - 7713ms download)

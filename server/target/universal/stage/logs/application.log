@@ -1,0 +1,12 @@
+2017-04-22 20:23:55,033 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - The application secret has not been set, and we are in prod mode. Your application is not secure.
+2017-04-22 20:23:55,034 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - To set the application secret, please read http://playframework.com/documentation/latest/ApplicationSecret
+2017-04-22 20:23:55,051 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - The application secret has not been set, and we are in prod mode. Your application is not secure.
+2017-04-22 20:23:55,051 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - To set the application secret, please read http://playframework.com/documentation/latest/ApplicationSecret
+2017-04-22 20:23:55,059 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - The application secret has not been set, and we are in prod mode. Your application is not secure.
+2017-04-22 20:23:55,060 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - To set the application secret, please read http://playframework.com/documentation/latest/ApplicationSecret
+2017-04-22 20:23:55,062 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - The application secret has not been set, and we are in prod mode. Your application is not secure.
+2017-04-22 20:23:55,062 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - To set the application secret, please read http://playframework.com/documentation/latest/ApplicationSecret
+2017-04-22 20:23:55,063 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - The application secret has not been set, and we are in prod mode. Your application is not secure.
+2017-04-22 20:23:55,063 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - To set the application secret, please read http://playframework.com/documentation/latest/ApplicationSecret
+2017-04-22 20:23:55,064 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - The application secret has not been set, and we are in prod mode. Your application is not secure.
+2017-04-22 20:23:55,064 [ERROR] from play.api.libs.crypto.CryptoConfigParser in main - To set the application secret, please read http://playframework.com/documentation/latest/ApplicationSecret

@@ -1,0 +1,695 @@
+[info] Updating {file:/home/xperiall/Downloads/%D0%BA%D1%83%D1%80%D1%81%D0%B0%D1%87/}sharedJS...
+[debug] :: resolving dependencies :: shared#shared_sjs0.6_2.11;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16fdd102
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
+[debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
+[debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->default(compile)]
+[info] Resolving org.scala-js#scalajs-library_2.11;0.6.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.7 {compile=[default(compile)]}
+[info] Resolving org.scala-js#scalajs-library_2.11;0.6.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.7 {compile=[default(compile)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.scala-js/scalajs-library_2.11/0.6.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-js#scalajs-library_2.11;0.6.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.pom
+[debug] 	public: found md file for org.scala-js#scalajs-library_2.11;0.6.7
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.pom (0.6.7)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.pom
+[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.11;0.6.7!scalajs-library_2.11.pom(pom.original) (679ms)
+[debug] 		tried /home/xperiall/.ivy2/local/org.scala-js/scalajs-library_2.11/0.6.7/jars/scalajs-library_2.11.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.jar
+[debug] 	found org.scala-js#scalajs-library_2.11;0.6.7 in public
+[debug] 	[0.6.7] org.scala-js#scalajs-library_2.11;0.6.7
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->default(compile)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.7 [compile->master]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.brianmckenna#wartremover_2.11;0.14 [plugin->default(compile)]
+[info] Resolving org.brianmckenna#wartremover_2.11;0.14 ...
+[debug] sbt-chain: Checking cache for: dependency: org.brianmckenna#wartremover_2.11;0.14 {plugin=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.brianmckenna#wartremover_2.11;0.14
+[debug] 	found org.brianmckenna#wartremover_2.11;0.14 in sbt-chain
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.brianmckenna#wartremover_2.11;0.14 [plugin->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.brianmckenna#wartremover_2.11;0.14 [plugin->compile]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-compiler;2.11.6 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
+[debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-compiler;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
+[debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
+[debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-compiler;2.11.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-compiler;2.11.6 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-compiler;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-compiler;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.brianmckenna#wartremover_2.11;0.14->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.brianmckenna#wartremover_2.11;0.14 [plugin->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.7;0.6.7 [plugin->default(compile)]
+[info] Resolving org.scala-js#scalajs-compiler_2.11.7;0.6.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.7;0.6.7 {plugin=[default(compile)]}
+[info] Resolving org.scala-js#scalajs-compiler_2.11.7;0.6.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.7;0.6.7 {plugin=[default(compile)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.scala-js/scalajs-compiler_2.11.7/0.6.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-js#scalajs-compiler_2.11.7;0.6.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.pom
+[debug] 	public: found md file for org.scala-js#scalajs-compiler_2.11.7;0.6.7
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.pom (0.6.7)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.pom
+[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-compiler_2.11.7;0.6.7!scalajs-compiler_2.11.7.pom(pom.original) (374ms)
+[debug] 		tried /home/xperiall/.ivy2/local/org.scala-js/scalajs-compiler_2.11.7/0.6.7/jars/scalajs-compiler_2.11.7.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.jar
+[debug] 	found org.scala-js#scalajs-compiler_2.11.7;0.6.7 in public
+[debug] 	[0.6.7] org.scala-js#scalajs-compiler_2.11.7;0.6.7
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.7;0.6.7 [plugin->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.7;0.6.7 [plugin->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-compiler;2.11.7 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
+[debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-compiler;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
+[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
+[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(*)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(*)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-compiler;2.11.7 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-compiler;2.11.7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-compiler;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-compiler;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.7;0.6.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.7;0.6.7 [plugin->master]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(*)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(*)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
+[debug] resolving dependencies for configuration 'phantom-js-jetty'
+[debug] == resolving dependencies for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT [phantom-js-jetty]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.pom(pom.original) (224ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-project/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-project;8.1.16.v20140903!jetty-project.pom(pom.original) (802ms)
+[info] Resolving org.eclipse.jetty#jetty-parent;20 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;20 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-parent;20
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-project/8.1.16.v20140903/jars/jetty-project.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/jars/jetty-websocket.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 in public
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-util/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-util;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-util;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.pom(pom.original) (619ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-util/8.1.16.v20140903/jars/jetty-util.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-util;8.1.16.v20140903 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-io/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-io;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-io;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.pom(pom.original) (479ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-io/8.1.16.v20140903/jars/jetty-io.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-io;8.1.16.v20140903 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-http/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-http;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-http;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.pom(pom.original) (440ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-http/8.1.16.v20140903/jars/jetty-http.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-http;8.1.16.v20140903 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-server/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-server;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-server;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.pom(pom.original) (551ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-server/8.1.16.v20140903/jars/jetty-server.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-server;8.1.16.v20140903 in public
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+[debug] 	public: found md file for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom (3.0.0.v201112011016)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.pom(pom.original) (1185ms)
+[info] Resolving org.eclipse.jetty.orbit#jetty-orbit;1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#jetty-orbit;1 {}
+[info] Resolving org.eclipse.jetty.orbit#jetty-orbit;1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty.orbit#jetty-orbit;1 {}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty.orbit/jetty-orbit/1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty.orbit#jetty-orbit;1
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+[debug] 	public: found md file for org.eclipse.jetty.orbit#jetty-orbit;1
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom (1)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#jetty-orbit;1!jetty-orbit.pom(pom.original) (1722ms)
+[info] Resolving org.eclipse.jetty#jetty-parent;18 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;18 {}
+[info] Resolving org.eclipse.jetty#jetty-parent;18 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;18 {}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-parent/18/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-parent;18
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-parent;18
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom (18)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-parent;18!jetty-parent.pom(pom.original) (378ms)
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-parent/18/jars/jetty-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty.orbit/jetty-orbit/1/jars/jetty-orbit.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
+[debug] 		tried https://oss.sonatype.org/content/repositories/releases/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
+[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/orbits/javax.servlet.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.pom(pom.original) (924ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /home/xperiall/.ivy2/local/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/jars/jetty-continuation.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies shared#shared_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.7/scalajs-library_2.11-0.6.7.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.11;0.6.7!scalajs-library_2.11.jar (6062ms)
+[debug] 	[NOT REQUIRED] org.brianmckenna#wartremover_2.11;0.14!wartremover_2.11.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.7/0.6.7/scalajs-compiler_2.11.7-0.6.7.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-compiler_2.11.7;0.6.7!scalajs-compiler_2.11.7.jar (1809ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar (274ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar (418ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar (367ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar (239ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar (212ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit) (618ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar (250ms)
+[debug] :: resolution report :: resolve 14864ms :: artifacts dl 10391ms
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-compile.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-runtime.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT test produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-test.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT provided produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-provided.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT optional produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-optional.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-compile-internal.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-runtime-internal.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-test-internal.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-plugin.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT sources produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-sources.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT docs produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-docs.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-pom.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-scala-tool.xml
+[debug] 	report for shared#shared_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /home/xperiall/Downloads/курсач/shared/.js/target/resolution-cache/reports/shared-shared_sjs0.6_2.11-phantom-js-jetty.xml
+[debug] 	resolve done (14864ms resolve - 10391ms download)
+[info] Done updating.

@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mFull optimizing /root/Загрузки/ScalaJs_Weather_Report-master/client/target/scala-2.11/client-opt.js[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 996555 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 1467241 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 2490596 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: true[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 2494861 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 5900 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 17879656 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 20434405 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 411165 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 97961 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 513348 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 772[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 3147[0m
+[0m[[0mdebug[0m] [0mEmitter (create Closure trees): 2755315 us[0m
+[0m[[0minfo[0m] [0mClosure: 0 error(s), 0 warning(s)[0m
+[0m[[0mdebug[0m] [0mClosure: Compiler pass: 25642361 us[0m
+[0m[[0mdebug[0m] [0mClosure: Write result: 239250 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 0 -- invalidated: 16 -- trees read: 1035[0m

@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0mPackaging /root/Загрузки/ScalaJs_Weather_Report-master/server/target/scala-2.11/server_2.11-0.1-SNAPSHOT-web-assets.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	public/images[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/public/images[0m
+[0m[[0mdebug[0m] [0m	public/client-launcher.js.gz[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/target/web/gzipCompress/client-launcher.js.gz[0m
+[0m[[0mdebug[0m] [0m	public/stylesheets[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/public/stylesheets[0m
+[0m[[0mdebug[0m] [0m	public/client-opt.js[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/client/target/scala-2.11/client-opt.js[0m
+[0m[[0mdebug[0m] [0m	public/client-launcher.js[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/client/target/scala-2.11/client-launcher.js[0m
+[0m[[0mdebug[0m] [0m	public/images/image.png[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/public/images/image.png[0m
+[0m[[0mdebug[0m] [0m	public/client-opt.js.gz[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/target/web/gzipCompress/client-opt.js.gz[0m
+[0m[[0mdebug[0m] [0m	public/stylesheets/bootstrap.css.gz[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/target/web/gzipCompress/stylesheets/bootstrap.css.gz[0m
+[0m[[0mdebug[0m] [0m	public/client-jsdeps.js[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/client/target/scala-2.11/client-jsdeps.js[0m
+[0m[[0mdebug[0m] [0m	public/client-jsdeps.js.gz[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/target/web/gzipCompress/client-jsdeps.js.gz[0m
+[0m[[0mdebug[0m] [0m	public/images/weather.png[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/public/images/weather.png[0m
+[0m[[0mdebug[0m] [0m	public/stylesheets/bootstrap.css[0m
+[0m[[0mdebug[0m] [0m	  /root/Загрузки/ScalaJs_Weather_Report-master/server/public/stylesheets/bootstrap.css[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

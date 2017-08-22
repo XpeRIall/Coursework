@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0mFast optimizing /root/Загрузки/ScalaJs_Weather_Report-master/client/target/scala-2.11/client-fastopt.js[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 1007502 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 1455188 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 2494177 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: true[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 2789065 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 5905 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 22434426 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 25240358 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 282774 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 17397 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 300783 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 773[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 3153[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 2145454 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 0 -- invalidated: 16 -- trees read: 1035[0m
